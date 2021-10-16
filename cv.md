@@ -1,6 +1,7 @@
 #Ivan Aliseiko
 
 ---
+
 ##Contacts
 
 * **Location:** Minsk, Belarus
@@ -8,3 +9,21 @@
 * **Email:** aliseiko.dev@gmail.com
 * **GitHub:** [Aliseiko](https://github.com/Aliseiko)
 ---
+
+##Skills
+
+---
+
+##Code example
+
+---
+
+##Education
+
+---
+
+##Experience
+
+---
+
+##Languages
