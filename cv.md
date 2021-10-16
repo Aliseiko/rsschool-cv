@@ -6,6 +6,9 @@
 * **Phone:** +375 (29) 1-199-198
 * **Email:** aliseiko.dev@gmail.com
 * **GitHub:** [Aliseiko](https://github.com/Aliseiko)
+* **Telegram:** @ivanaliseiko
+
+## About Me
 
 ## Skills
 
@@ -35,11 +38,16 @@ function reverse(str) {
 
 ## Education
 
-
+* **Belarusian National Technical University**
+    * Autotractor Faculty
+        * Traffic organization and transport management
+* **Code Basics**
+    * [HTML](https://ru.code-basics.com/languages/html)
+    * [CSS](https://ru.code-basics.com/languages/css)
 
 ## Experience
 
-
+SEO specialist on [DL-Navigator](https://dl-navigator.by/) project (travel company website)
 
 ## Languages
 
