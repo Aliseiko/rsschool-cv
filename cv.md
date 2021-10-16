@@ -53,3 +53,5 @@ SEO specialist on [DL-Navigator](https://dl-navigator.by/) project (travel compa
 
 * **Russian** - native speaker
 * **English** - B1 (intermediate) according to [EFSET](https://www.efset.org/quick-check/)
+
+![English level](img/english.jpg)
