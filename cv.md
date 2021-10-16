@@ -1,7 +1,5 @@
 # Ivan Aliseiko
 
----
-
 ## Contacts
 
 * **Location:** Minsk, Belarus
@@ -9,11 +7,11 @@
 * **Email:** aliseiko.dev@gmail.com
 * **GitHub:** [Aliseiko](https://github.com/Aliseiko)
 
----
-
 ## Skills
 
----
+* **HTML**
+* **CSS**
+* **JavaScript** (in progress)
 
 ## Code example
 
@@ -35,14 +33,15 @@ function reverse(str) {
 }
 ```
 
----
-
 ## Education
 
----
+
 
 ## Experience
 
----
+
 
 ## Languages
+
+* **Russian** - native speaker
+* **English** - B1 (intermediate) according to [EFSET](https://www.efset.org/quick-check/)
