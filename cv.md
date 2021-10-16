@@ -10,6 +10,12 @@
 
 ## About Me
 
+My current job is not related to programming, but I have a great desire to learn this profession.\
+My core strengths are:
+* fast learning
+*  hard work
+*  teamwork skills
+
 ## Skills
 
 * **HTML**
