@@ -40,6 +40,7 @@ h2 {
 
 .right {
   width: 66.66%;
+  padding: 0 40px;
 
 }
 
@@ -127,4 +128,38 @@ h2.skills {
   color: #56CCF2;
   margin-top: 30px;
   font-weight: 700;
+}
+
+h2.education {
+  color: #174180;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.education_ul {
+  overflow: auto;
+  padding: 0;
+    list-style-position: outside;
+  list-style-type: none;
+}
+
+.education_ul li:before {
+  color: #56CCF2;
+  content: "•";
+  padding-right: 10px;
+}
+
+.education_ul li {
+  margin-top: 10px;
+  clear: both;
+  font-size: 24px;
+  font-weight: 700;
+  color: #4F4F4F;
+}
+.education_ul span {
+  float: right;
+  font-weight: 600;
+  font-style: italic;
+  /*white-space: nowrap; */
 }
