@@ -10,7 +10,12 @@
 
 ## About Me
 
-My current job is not related to programming, but I have a great desire to learn this profession.\
+My current job is not related to programming, but I have a great desire to learn this profession.
+
+A couple of years ago I was invited to engage in search engine promotion of a travel site. Being engaged in SEO, I had to change the HTML code of the pages and I liked it.
+
+Now I am self-educated, studying web programming and want to change my profession to a web developer.
+
 My core strengths are:
 * fast learning
 *  hard work
