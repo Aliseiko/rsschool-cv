@@ -1,58 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
 * {
+  margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  margin: 0;
-  /*overflow: hidden;*/
+
 }
 
 body {
   background-color: #E5E5E5;
-
 }
 
 h1 {
-  color: white;
-  font-size: 40px;
   margin-top: 30px;
+  font-size: 40px;
+  color: #ffffff;
 }
 
 h2 {
-  color: white;
   font-size: 28px;
+  color: #ffffff;
 }
 
 .container {
+  display: flex;
   max-width: 1190px;
   min-width: 815px;
   margin: 5px auto;
-  background-color: white;
-  display: flex;
+  background-color: #ffffff;
   box-shadow: 0 0 5px gray;
 }
 
 .left {
   width: 33.33%;
-  background-color: #174180;
   padding: 30px;
+  background-color: #174180;
 }
 
 .right {
   width: 66.66%;
   padding: 0 40px;
-
 }
 
 .contacts {
   color: #56CCF2;
-
-
 }
 
 img {
-  border-radius: 50%;
   width: 100%;
+  border-radius: 50%;
 }
 
 a {
@@ -80,44 +74,44 @@ ul.contacts > li {
 }
 
 li.mail_icon:before {
+  margin: 0 15px 0 -15px;
   font-family: 'FontAwesome';
   content: '\f0e0';
-  margin: 0 15px 0 -15px;
   color: #56CCF2;
 }
 
 li.tel_icon:before {
+  margin: 0 15px 0 -15px;
   font-family: 'FontAwesome';
   content: '\f879';
-  margin: 0 15px 0 -15px;
   color: #56CCF2;
 }
 
 li.telegram_icon:before {
+  margin: 0 15px 0 -15px;
   font-family: 'FontAwesome';
   content: '\f3fe';
-  margin: 0 15px 0 -15px;
   color: #56CCF2;
 }
 
 li.github_icon:before {
+  margin: 0 15px 0 -15px;
   font-family: 'FontAwesome';
   content: '\f09b';
-  margin: 0 15px 0 -15px;
   color: #56CCF2;
 }
 
 li.location_icon:before {
+  margin: 0 15px 0 -15px;
   font-family: 'FontAwesome';
   content: '\f3c5';
-  margin: 0 15px 0 -15px;
   color: #56CCF2;
 }
 
 .bio {
+  margin-top: 15px;
   color: white;
   font-size: 16px;
-  margin-top: 15px;
 }
 
 .textcolumns {
@@ -125,16 +119,16 @@ li.location_icon:before {
 }
 
 h2.skills {
-  color: #56CCF2;
   margin-top: 30px;
   font-weight: 700;
+  color: #56CCF2;
 }
 
 h2.education {
+  margin-top: 60px;
   color: #174180;
   font-size: 32px;
   font-weight: 700;
-  margin-top: 60px;
 }
 
 .education_ul {
@@ -145,9 +139,9 @@ h2.education {
 }
 
 .education_ul li:before {
+  padding-right: 10px;
   color: #56CCF2;
   content: "•";
-  padding-right: 10px;
 }
 
 .education_ul li {
@@ -162,7 +156,6 @@ h2.education {
   float: right;
   font-weight: 600;
   font-style: italic;
-  /*white-space: nowrap; */
 }
 
 .education_p {
@@ -184,8 +177,8 @@ h2.education {
 }
 
 pre {
-  background-color: #56CCF2;
   padding: 15px;
   margin: 15px 0;
   border-left: 5px solid #174180;
+  background-color: #56CCF2;
 }
