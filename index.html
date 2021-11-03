@@ -12,12 +12,11 @@
 
     <img src="img/english.jpg" alt="Photo: Ivan Aliseiko">
 
-
-    <header>
-      <h1>Ivan <span style="font-weight: 800">Aliseiko</span></h1>
-      <h2>Front-End Developer</h2>
-    </header>
     <section>
+      <header>
+        <h1>Ivan <span style="font-weight: 800">Aliseiko</span></h1>
+        <h2>Front-End Developer</h2>
+      </header>
       <ul class="contacts">
         <li class="mail_icon"><a href="mailto:aliseiko.dev@gmail.com" title="E-mail">aliseiko.dev@gmail.com</a></li>
         <li class="tel_icon"><a href="tel:+375291199198" title="Phone">+375 (29) 1-199-198</a></li>
@@ -49,12 +48,35 @@
   <div class="right">
     <h2 class="education">Education</h2>
     <ul class="education_ul">
-      <li>Belarusian National Technical University <span>(1999 - 2004)</span></li>
-      Traffic organization and transport management
-      <li>Code Basics <span>(2021)</span></li>
+      <li>Belarusian National Technical University <span>(1999 - 2004)</span>
+        <p class="education_p">Traffic organization and transport management</p></li>
+      <li>Code Basics <span>(2021)</span>
+        <p class="education_p">HTML and CSS courses</p></li>
     </ul>
     <h2 class="education">Experience</h2>
+    <ul class="education_ul">
+      <li>SEO specialist on DL-Navigator project <span>(2018 - Ongoing)</span>
+        <p class="education_p">Travel company <a href="https://dl-navigator.by/" target="_blank"
+                                                 title="DL-Navigator.by">website</a></p>
+      </li>
+    </ul>
     <h2 class="education">Code example</h2>
+    <p class="code"><span style="font-weight: bold">Codewars Kata:</span> Reverse every other word in the string.</p>
+    <p class="code_p">Reverse every other word in a given string, then return the string. Throw away any leading or
+      trailing whitespace, while ensuring there is exactly one space between each word. Punctuation marks should be
+      treated as if they are a part of the word in this kata.</p>
+
+    <pre><code>function reverse(str) {
+    return str.split(' ').reduce((acc, item, index) => {
+        if (index % 2 === 0) {
+            acc += ' ' + item;
+        } else {
+            acc += ' ' + item.split('').reverse().join('');
+        }
+        return acc.trim();
+    }, '');
+}    </code></pre>
+
   </div>
 </main>
 

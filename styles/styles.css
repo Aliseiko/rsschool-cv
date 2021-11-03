@@ -140,7 +140,7 @@ h2.education {
 .education_ul {
   overflow: auto;
   padding: 0;
-    list-style-position: outside;
+  list-style-position: outside;
   list-style-type: none;
 }
 
@@ -157,9 +157,35 @@ h2.education {
   font-weight: 700;
   color: #4F4F4F;
 }
+
 .education_ul span {
   float: right;
   font-weight: 600;
   font-style: italic;
   /*white-space: nowrap; */
+}
+
+.education_p {
+  padding: 5px 0 0 20px;
+  font-size: 24px;
+  color: #828282;
+}
+
+.code {
+  padding-top: 5px;
+  font-size: 24px;
+  color: #4F4F4F;
+}
+
+.code_p {
+  padding-top: 5px;
+  font-style: italic;
+  color: #4F4F4F;
+}
+
+pre {
+  background-color: #56CCF2;
+  padding: 15px;
+  margin: 15px 0;
+  border-left: 5px solid #174180;
 }
