@@ -13,17 +13,18 @@
 <body>
 <main class="container">
   <div class="left">
-    <img src="img/english.jpg" alt="Photo: Ivan Aliseiko">
+    <img class="my_photo" src="img/english.jpg" alt="Photo: Ivan Aliseiko">
     <section>
       <header>
         <h1>Ivan <span style="font-weight: 800">Aliseiko</span></h1>
         <h2>Front-End Developer</h2>
       </header>
+
       <ul class="contacts">
         <li class="mail_icon"><a href="mailto:aliseiko.dev@gmail.com" title="E-mail">aliseiko.dev@gmail.com</a></li>
         <li class="tel_icon"><a href="tel:+375291199198" title="Phone">+375 (29) 1-199-198</a></li>
         <li class="telegram_icon"><span title="Telegram">@ivanaliseiko</span></li>
-        <li class="github_icon"><a href="" title="GitHub">Aliseiko</a></li>
+        <li class="github_icon"><a href="https://github.com/Aliseiko" title="GitHub">Aliseiko</a></li>
         <li class="location_icon"><span title="Location">Minsk, Belarus</span></li>
       </ul>
     </section>
@@ -32,21 +33,24 @@
       Being engaged in SEO, I had to change the HTML code of the pages and I liked it.</p>
     <p class="bio">Now I am self-educated, studying web programming and want to change my profession to a web
       developer.</p>
+
     <h2 class="skills">Skills</h2>
-    <p class="bio textcolumns">
-      HTML<br>
-      CSS<br>
-      JavaScript<br>
-      Git&Github
-    </p>
+    <ul class="bio textcolumns">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Git&Github</li>
+    </ul>
+
     <h2 class="skills">Language</h2>
-    <p class="bio textcolumns">
-      Russian<br>
-      English<br>
-      Native<br>
-      B1(intermediate)
-    </p>
+    <ul class="bio textcolumns">
+      <li>Russian</li>
+      <li>English</li>
+      <li>Native</li>
+      <li>B1(intermediate)</li>
+    </ul>
   </div>
+
   <div class="right">
     <h2 class="education">Education</h2>
     <ul class="education_ul">
@@ -55,12 +59,14 @@
       <li>Code Basics <span>(2021)</span>
         <p class="education_p">HTML and CSS courses</p></li>
     </ul>
+
     <h2 class="education">Experience</h2>
     <ul class="education_ul">
       <li>SEO specialist on DL-Navigator project <span>(2018 - Ongoing)</span>
         <p class="education_p">Travel company <a href="https://dl-navigator.by/" target="_blank" title="DL-Navigator.by">website</a></p>
       </li>
     </ul>
+
     <h2 class="education">Code example</h2>
     <p class="code"><span style="font-weight: bold">Codewars Kata:</span> Reverse every other word in the string.</p>
     <p class="code_p">Reverse every other word in a given string, then return the string. Throw away any leading or
@@ -77,7 +83,15 @@
         return acc.trim();
     }, '');
 }    </code></pre>
+
+    <footer class="footer">
+      <a href="https://rs.school/js/" target="_blank"><img class="svg" src="img/rs_school_js.svg" alt="RS school logo"></a>
+      <div>2021</div>
+      <a href="https://github.com/Aliseiko" target="_blank"><i class="fab fa-github" style="font-size: 40px; color: black"></i></a>
+    </footer>
+
   </div>
+
 </main>
 
 </body>
