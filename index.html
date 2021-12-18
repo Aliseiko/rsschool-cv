@@ -8,74 +8,95 @@
   <link rel="icon" href="assets/cv-icon-4.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap">
   <script src="https://kit.fontawesome.com/f099138a00.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-<main class="container">
-  <div class="left">
-    <img class="my_photo" src="assets/img/MyPhoto.jpg" alt="Photo: Ivan Aliseiko">
-    <section>
-      <header>
-        <h1>Ivan <span style="font-weight: 800">Aliseiko</span></h1>
-        <h2>Front-End Developer</h2>
-      </header>
-
-      <ul class="contacts">
-        <li class="mail_icon"><a href="mailto:aliseiko.dev@gmail.com" title="E-mail">aliseiko.dev@gmail.com</a></li>
-        <li class="tel_icon"><a href="tel:+375291199198" title="Phone">+375 (29) 1-199-198</a></li>
-        <li class="telegram_icon"><span title="Telegram">@ivanaliseiko</span></li>
-        <li class="github_icon"><a href="https://github.com/Aliseiko" title="GitHub">Aliseiko</a></li>
-        <li class="location_icon"><span title="Location">Minsk, Belarus</span></li>
+<div class="container">
+  <header class="header">
+    <nav class="menu">
+      <ul class="menu-list">
+        <li class="menu-item"><a class="menu-link" href="#contacts">Contacts</a></li>
+        <li class="menu-item"><a class="menu-link" href="#summary">Summary</a></li>
+        <li class="menu-item"><a class="menu-link" href="#skills">Skills</a></li>
+        <li class="menu-item"><a class="menu-link" href="#languages">Language</a></li>
+        <li class="menu-item"><a class="menu-link" href="#education">Education</a></li>
+        <li class="menu-item"><a class="menu-link" href="#experience">Experience</a></li>
+        <li class="menu-item"><a class="menu-link" href="#code-example">Code example</a></li>
       </ul>
-    </section>
-    <p class="bio">My current job is not related to programming, but I have a great desire to learn this profession.</p>
-    <p class="bio">A couple of years ago I was invited to engage in search engine promotion of a travel site.
-      Being engaged in SEO, I had to change the HTML code of the pages and I liked it.</p>
-    <p class="bio">Now I am self-educated, studying web programming and want to change my profession to a web
-      developer.</p>
+    </nav>
+  </header>
 
-    <h2 class="skills">Skills</h2>
-    <ul class="bio textcolumns">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Git&Github</li>
-    </ul>
+  <main>
+    <div class="main-container">
+      <div class="left">
+        <section class="profile">
+          <img class="my-photo" src="assets/img/MyPhoto.jpg" alt="Photo: Ivan Aliseiko">
+          <h1>Ivan <span style="font-weight: 800">Aliseiko</span></h1>
+          <h2>Front-End Developer</h2>
+        </section>
 
-    <h2 class="skills">Language</h2>
-    <ul class="bio textcolumns">
-      <li>Russian</li>
-      <li>English</li>
-      <li>Native</li>
-      <li>B1(intermediate)</li>
-    </ul>
-  </div>
+        <section id="contacts">
+          <ul class="contacts">
+            <li class="contacts-mail-icon"><a href="mailto:aliseiko.dev@gmail.com" title="E-mail">aliseiko.dev@gmail.com</a></li>
+            <li class="contacts-tel-icon"><a href="tel:+375291199198" title="Phone">+375 (29) 1-199-198</a></li>
+            <li class="contacts-telegram-icon"><span title="Telegram">@ivanaliseiko</span></li>
+            <li class="contacts-github-icon"><a href="https://github.com/Aliseiko" title="GitHub">Aliseiko</a></li>
+            <li class="contacts-location-icon"><span title="Location">Minsk, Belarus</span></li>
+          </ul>
+        </section>
 
-  <aside class="right">
-    <h2 class="education">Education</h2>
-    <ul class="education_ul">
-      <li>Belarusian National Technical University <span>(1999 - 2004)</span>
-        <p class="education_p">Traffic organization and transport management</p></li>
-      <li>Code Basics <span>(2021)</span>
-        <p class="education_p">HTML and CSS courses</p></li>
-    </ul>
+        <p class="bio">My current job is not related to programming, but I have a great desire to learn this
+          profession.</p>
+        <p class="bio">A couple of years ago I was invited to engage in search engine promotion of a travel site.
+          Being engaged in SEO, I had to change the HTML code of the pages and I liked it.</p>
+        <p class="bio">Now I am self-educated, studying web programming and want to change my profession to a web
+          developer.</p>
 
-    <h2 class="education">Experience</h2>
-    <ul class="education_ul">
-      <li>SEO specialist on DL-Navigator project <span>(2018 - Ongoing)</span>
-        <p class="education_p">Travel company <a href="https://dl-navigator.by/" target="_blank" title="DL-Navigator.by">website</a></p>
-      </li>
-    </ul>
+        <h2 class="skills">Skills</h2>
+        <ul class="bio textcolumns">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git&Github</li>
+        </ul>
 
-    <h2 class="education">Code example</h2>
-    <p class="code"><span style="font-weight: bold">Codewars Kata:</span> Reverse every other word in the string.</p>
-    <p class="code_p">Reverse every other word in a given string, then return the string. Throw away any leading or
-      trailing whitespace, while ensuring there is exactly one space between each word. Punctuation marks should be
-      treated as if they are a part of the word in this kata.</p>
+        <h2 class="skills">Language</h2>
+        <ul class="bio textcolumns">
+          <li>Russian</li>
+          <li>English</li>
+          <li>Native</li>
+          <li>B1(intermediate)</li>
+        </ul>
+      </div>
 
-    <pre><code>function reverse(str) {
+      <aside class="right">
+        <h2 class="education">Education</h2>
+        <ul class="education_ul">
+          <li>Belarusian National Technical University <span>(1999 - 2004)</span>
+            <p class="education_p">Traffic organization and transport management</p></li>
+          <li>Code Basics <span>(2021)</span>
+            <p class="education_p">HTML and CSS courses</p></li>
+        </ul>
+
+        <h2 class="education">Experience</h2>
+        <ul class="education_ul">
+          <li>SEO specialist on DL-Navigator project <span>(2018 - Ongoing)</span>
+            <p class="education_p">Travel company <a href="https://dl-navigator.by/" target="_blank"
+                                                     title="DL-Navigator.by">website</a></p>
+          </li>
+        </ul>
+
+        <h2 class="education">Code example</h2>
+        <p class="code"><span style="font-weight: bold">Codewars Kata:</span> Reverse every other word in the string.
+        </p>
+        <p class="code_p">Reverse every other word in a given string, then return the string. Throw away any leading or
+          trailing whitespace, while ensuring there is exactly one space between each word. Punctuation marks should be
+          treated as if they are a part of the word in this kata.</p>
+
+        <pre><code>function reverse(str) {
     return str.split(' ').reduce((acc, item, index) => {
         if (index % 2 === 0) {
             acc += ' ' + item;
@@ -86,15 +107,18 @@
     }, '');
 }    </code></pre>
 
-    <footer class="footer">
-      <a href="https://rs.school/js/" target="_blank"><img class="svg" src="assets/svg/rs_school_js.svg" alt="RS school logo"></a>
-      <div>2021</div>
-      <a href="https://github.com/Aliseiko" target="_blank"><i class="fab fa-github" style="font-size: 40px; color: black"></i></a>
-    </footer>
+        <footer class="footer">
+          <a href="https://rs.school/js/" target="_blank"><img class="svg" src="assets/svg/rs_school_js.svg"
+                                                               alt="RS school logo"></a>
+          <div>2021</div>
+          <a href="https://github.com/Aliseiko" target="_blank"><i class="fab fa-github"
+                                                                   style="font-size: 40px; color: black"></i></a>
+        </footer>
 
-  </aside>
-
-</main>
+      </aside>
+    </div>
+  </main>
+</div>
 
 </body>
 </html>
