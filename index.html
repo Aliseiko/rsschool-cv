@@ -40,7 +40,8 @@
 
         <section id="contacts">
           <ul class="contacts">
-            <li class="contacts-mail-icon"><a href="mailto:aliseiko.dev@gmail.com" title="E-mail">aliseiko.dev@gmail.com</a></li>
+            <li class="contacts-mail-icon"><a href="mailto:aliseiko.dev@gmail.com"
+                                              title="E-mail">aliseiko.dev@gmail.com</a></li>
             <li class="contacts-tel-icon"><a href="tel:+375291199198" title="Phone">+375 (29) 1-199-198</a></li>
             <li class="contacts-telegram-icon"><span title="Telegram">@ivanaliseiko</span></li>
             <li class="contacts-github-icon"><a href="https://github.com/Aliseiko" title="GitHub">Aliseiko</a></li>
@@ -48,55 +49,68 @@
           </ul>
         </section>
 
-        <p class="bio">My current job is not related to programming, but I have a great desire to learn this
-          profession.</p>
-        <p class="bio">A couple of years ago I was invited to engage in search engine promotion of a travel site.
-          Being engaged in SEO, I had to change the HTML code of the pages and I liked it.</p>
-        <p class="bio">Now I am self-educated, studying web programming and want to change my profession to a web
-          developer.</p>
+        <section id="summary">
+          <p class="bio">My current job is not related to programming, but I have a great desire to learn this
+            profession.</p>
+          <p class="bio">A couple of years ago I was invited to engage in search engine promotion of a travel site.
+            Being engaged in SEO, I had to change the HTML code of the pages and I liked it.</p>
+          <p class="bio">Now I am self-educated, studying web programming and want to change my profession to a web
+            developer.</p>
+        </section>
 
-        <h2 class="skills">Skills</h2>
-        <ul class="bio textcolumns">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Git&Github</li>
-        </ul>
+        <section id="skills">
+          <h2 class="skills">Skills</h2>
+          <ul class="bio textcolumns">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git&Github</li>
+          </ul>
+        </section>
 
-        <h2 class="skills">Language</h2>
-        <ul class="bio textcolumns">
-          <li>Russian</li>
-          <li>English</li>
-          <li>Native</li>
-          <li>B1(intermediate)</li>
-        </ul>
+        <section id="languages">
+          <h2 class="skills">Language</h2>
+          <ul class="bio textcolumns">
+            <li>Russian</li>
+            <li>English</li>
+            <li>Native</li>
+            <li>B1(intermediate)</li>
+          </ul>
+        </section>
       </div>
 
-      <aside class="right">
-        <h2 class="education">Education</h2>
-        <ul class="education_ul">
-          <li>Belarusian National Technical University <span>(1999 - 2004)</span>
-            <p class="education_p">Traffic organization and transport management</p></li>
-          <li>Code Basics <span>(2021)</span>
-            <p class="education_p">HTML and CSS courses</p></li>
-        </ul>
+      <div class="right">
+        <section id="education">
+          <h2 class="education">Education</h2>
+          <ul class="education-ul">
+            <li>Belarusian National Technical University <span>(1999 - 2004)</span>
+              <p class="education-p">Traffic organization and transport management</p></li>
+            <li>Code Basics <span>(2021)</span>
+              <p class="education-p">HTML and CSS courses</p></li>
+          </ul>
+        </section>
 
-        <h2 class="education">Experience</h2>
-        <ul class="education_ul">
-          <li>SEO specialist on DL-Navigator project <span>(2018 - Ongoing)</span>
-            <p class="education_p">Travel company <a href="https://dl-navigator.by/" target="_blank"
-                                                     title="DL-Navigator.by">website</a></p>
-          </li>
-        </ul>
+        <section id="experience">
+          <h2 class="education">Experience</h2>
+          <ul class="education-ul">
+            <li>SEO specialist on DL-Navigator project <span>(2018 - Ongoing)</span>
+              <p class="education-p">Travel company <a href="https://dl-navigator.by/" target="_blank"
+                                                       title="DL-Navigator.by">website</a></p>
+            </li>
+          </ul>
+        </section>
 
-        <h2 class="education">Code example</h2>
-        <p class="code"><span style="font-weight: bold">Codewars Kata:</span> Reverse every other word in the string.
-        </p>
-        <p class="code_p">Reverse every other word in a given string, then return the string. Throw away any leading or
-          trailing whitespace, while ensuring there is exactly one space between each word. Punctuation marks should be
-          treated as if they are a part of the word in this kata.</p>
+        <section id="code-example">
+          <h2 class="education">Code example</h2>
+          <p class="code"><span style="font-weight: bold">Codewars Kata:</span> Reverse every other word in the string.
+          </p>
+          <p class="code_p">Reverse every other word in a given string, then return the string. Throw away any leading
+            or
+            trailing whitespace, while ensuring there is exactly one space between each word. Punctuation marks should
+            be
+            treated as if they are a part of the word in this kata.</p>
 
-        <pre><code>function reverse(str) {
+          <pre><code>function reverse(str) {
     return str.split(' ').reduce((acc, item, index) => {
         if (index % 2 === 0) {
             acc += ' ' + item;
@@ -106,18 +120,21 @@
         return acc.trim();
     }, '');
 }    </code></pre>
+        </section>
 
-        <footer class="footer">
-          <a href="https://rs.school/js/" target="_blank"><img class="svg" src="assets/svg/rs_school_js.svg"
-                                                               alt="RS school logo"></a>
-          <div>2021</div>
-          <a href="https://github.com/Aliseiko" target="_blank"><i class="fab fa-github"
-                                                                   style="font-size: 40px; color: black"></i></a>
-        </footer>
-
-      </aside>
+      </div>
     </div>
   </main>
+
+  <footer>
+    <div class="footer">
+      <a href="https://rs.school/js/" target="_blank"><img class="svg" src="assets/svg/rss.svg"
+                                                           alt="RS school logo"></a>
+      <div>2021</div>
+      <a href="https://github.com/Aliseiko" target="_blank"><i class="fab fa-github svg"></i></a>
+    </div>
+  </footer>
+
 </div>
 
 </body>

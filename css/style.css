@@ -58,7 +58,7 @@ h2 {
 
 .right {
   width: 66.66%;
-  margin: 0 40px;
+  padding: 0 30px;
   position: relative;
 }
 
@@ -155,20 +155,20 @@ h2.education {
   font-weight: 700;
 }
 
-.education_ul {
+.education-ul {
   overflow: auto;
   padding: 0;
   list-style-position: outside;
   list-style-type: none;
 }
 
-.education_ul li:before {
+.education-ul li:before {
   padding-right: 10px;
   color: #56CCF2;
   content: "•";
 }
 
-.education_ul li {
+.education-ul li {
   margin-top: 10px;
   clear: both;
   font-size: 24px;
@@ -176,13 +176,13 @@ h2.education {
   color: #4F4F4F;
 }
 
-.education_ul span {
+.education-ul span {
   float: right;
   font-weight: 600;
   font-style: italic;
 }
 
-.education_p {
+.education-p {
   padding: 5px 0 0 20px;
   font-size: 24px;
   color: #828282;
@@ -208,15 +208,18 @@ pre {
 }
 
 .footer {
-  position: absolute;
-  bottom: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  height: 50px;
+  height: 60px;
+  padding: 0 30px;
+  background-color: #174180;
+  border-top: 3px solid #56CCF2;
+  color: #ffffff;
 }
 
 .svg {
   height: 40px;
+  color: #ffffff;
+  font-size: 40px;
 }
