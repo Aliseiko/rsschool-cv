@@ -1,3 +1,5 @@
+![My Photo](img/MyPhoto.jpg)
+
 # Ivan Aliseiko
 
 ## Contacts
