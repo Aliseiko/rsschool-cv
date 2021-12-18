@@ -223,3 +223,7 @@ pre {
   color: #ffffff;
   font-size: 40px;
 }
+
+.visually-hidden {
+  display: none;
+}
