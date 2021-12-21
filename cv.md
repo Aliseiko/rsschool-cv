@@ -1,4 +1,4 @@
-![My Photo](img/MyPhoto.jpg)
+![My Photo](assets/img/MyPhoto.jpg)
 
 # Ivan Aliseiko
 
@@ -67,4 +67,4 @@ SEO specialist on [DL-Navigator](https://dl-navigator.by/) project (travel compa
 * **Russian** - native speaker
 * **English** - B1 (intermediate) according to [EFSET](https://www.efset.org/quick-check/)
 
-![English level](img/english.jpg)
+![English level](assets/img/english.jpg)
