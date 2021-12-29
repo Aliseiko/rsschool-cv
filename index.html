@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ivan Aliseiko CV</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/cv-icon-4.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap">
+  <script src="https://kit.fontawesome.com/f099138a00.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="container">
+  <header class="header">
+    <nav class="menu">
+      <ul class="menu-list">
+        <li class="menu-item"><a class="menu-link" href="#contacts">Contacts</a></li>
+        <li class="menu-item"><a class="menu-link" href="#summary">Summary</a></li>
+        <li class="menu-item"><a class="menu-link" href="#skills">Skills</a></li>
+        <li class="menu-item"><a class="menu-link" href="#languages">Language</a></li>
+        <li class="menu-item"><a class="menu-link" href="#education">Education</a></li>
+        <li class="menu-item"><a class="menu-link" href="#experience">Experience</a></li>
+        <li class="menu-item"><a class="menu-link" href="#projects">Projects</a></li>
+        <li class="menu-item"><a class="menu-link" href="#code-example">Code</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="main-container">
+      <div class="left">
+        <section class="profile">
+          <img class="my-photo" src="assets/img/MyPhoto.jpg" alt="Photo: Ivan Aliseiko">
+          <h1>Ivan <span style="font-weight: 800">Aliseiko</span></h1>
+          <h2>Front-End Developer</h2>
+        </section>
+
+        <section id="contacts">
+          <h2 class="visually-hidden">Contacts</h2>
+          <ul class="contacts">
+            <li class="contacts-mail-icon"><a href="mailto:aliseiko.dev@gmail.com"
+                                              title="E-mail">aliseiko.dev@gmail.com</a></li>
+            <li class="contacts-tel-icon"><a href="tel:+375291199198" title="Phone">+375 (29) 1-199-198</a></li>
+            <li class="contacts-telegram-icon"><span title="Telegram">@ivanaliseiko</span></li>
+            <li class="contacts-github-icon"><a href="https://github.com/Aliseiko" title="GitHub">Aliseiko</a></li>
+            <li class="contacts-location-icon"><span title="Location">Minsk, Belarus</span></li>
+          </ul>
+        </section>
+
+        <section id="summary">
+          <h2 class="visually-hidden">Summary</h2>
+          <p class="bio">My current job is not related to programming, but I have a great desire to learn this
+            profession.</p>
+          <p class="bio">A couple of years ago I was invited to engage in search engine promotion of a travel site.
+            Being engaged in SEO, I had to change the HTML code of the pages and I liked it.</p>
+          <p class="bio">Now I am self-educated, studying web programming and want to change my profession to a web
+            developer.</p>
+        </section>
+
+        <section id="skills">
+          <h2 class="skills">Skills</h2>
+          <ul class="bio textcolumns">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git&Github</li>
+          </ul>
+        </section>
+
+        <section id="languages">
+          <h2 class="skills">Language</h2>
+          <ul class="bio textcolumns">
+            <li>Russian</li>
+            <li>English</li>
+            <li>Native</li>
+            <li>B1(intermediate)</li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="right">
+        <section id="education">
+          <h2 class="education">Education</h2>
+          <ul class="education-ul">
+            <li>Belarusian National Technical University <span>(1999 - 2004)</span>
+              <p class="education-p">Traffic organization and transport management</p></li>
+            <li>Code Basics <span>(2021)</span>
+              <p class="education-p">HTML, CSS and JavaScript courses</p></li>
+            <li>W3schools <span>(2021)</span>
+              <p class="education-p">HTML and CSS courses</p></li>
+            <li>RS School <span>(Ongoing)</span>
+              <p class="education-p">JS / Front-end. Stage 0</p></li>
+          </ul>
+        </section>
+
+        <section id="experience">
+          <h2 class="education">Experience</h2>
+          <ul class="education-ul">
+            <li>SEO specialist on DL-Navigator.by <span>(2018 - Ongoing)</span>
+              <p class="education-p">Travel company <a href="https://dl-navigator.by/" target="_blank"
+                                                       title="DL-Navigator.by">website</a></p>
+            </li>
+          </ul>
+        </section>
+
+        <section id="projects">
+          <h2 class="education">Projects</h2>
+          <ul class="education-ul">
+            <li>JS: Towel Sort (<a href="https://github.com/Aliseiko/towel-sort" target="_blank">link</a>)</li>
+            <li>JS: Brackets (<a href="https://github.com/Aliseiko/brackets" target="_blank">link</a>)</li>
+          </ul>
+        </section>
+
+        <section id="code-example">
+          <h2 class="education">Code example</h2>
+          <p class="code"><span style="font-weight: bold">Codewars Kata:</span> Reverse every other word in the string.
+          </p>
+          <p class="code_p">Reverse every other word in a given string, then return the string. Throw away any leading
+            or
+            trailing whitespace, while ensuring there is exactly one space between each word. Punctuation marks should
+            be
+            treated as if they are a part of the word in this kata.</p>
+
+          <pre><code>function reverse(str) {
+    return str.split(' ').reduce((acc, item, index) => {
+        if (index % 2 === 0) {
+            acc += ' ' + item;
+        } else {
+            acc += ' ' + item.split('').reverse().join('');
+        }
+        return acc.trim();
+    }, '');
+}    </code></pre>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <a href="https://rs.school/js/" target="_blank"><img class="svg" src="assets/svg/rss.svg"
+                                                           alt="RS school logo"></a>
+      <div>2021</div>
+      <a href="https://github.com/Aliseiko" target="_blank"><i class="fab fa-github svg"></i></a>
+    </div>
+  </footer>
+
+</div>
+
+</body>
+</html>
