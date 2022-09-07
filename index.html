@@ -130,7 +130,7 @@
             treated as if they are a part of the word in this kata.</p>
 
           <pre><code>function reverse(str) {
-    return str.split(' ').reduce((acc, item, index) => {
+    return str.split(' ').reduce((acc, item, index) =&gt; {
         if (index % 2 === 0) {
             acc += ' ' + item;
         } else {
