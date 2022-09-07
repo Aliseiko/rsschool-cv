@@ -16,6 +16,10 @@ h1 {
   color: #ffffff;
 }
 
+.h1-span {
+  font-weight: 800;
+}
+
 h2 {
   font-size: 28px;
   color: #ffffff;
@@ -23,8 +27,6 @@ h2 {
 
 .container {
   width: 1190px;
-  /*  max-width: 1190px;
-    min-width: 815px;*/
   margin: 5px auto;
   background-color: #ffffff;
   box-shadow: 0 0 5px gray;
@@ -32,18 +34,18 @@ h2 {
 
 .menu-list {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   padding: 0;
-  list-style: none;
-  background-color: #174180;
   border-bottom: 3px solid #56CCF2;
+  background-color: #174180;
+  list-style: none;
 }
 
 .menu-link {
+  padding: 15px;
   font-size: 25px;
   line-height: 50px;
-  padding: 15px;
 }
 
 .main-container {
@@ -57,9 +59,9 @@ h2 {
 }
 
 .right {
+  position: relative;
   width: 66.66%;
   padding: 0 30px;
-  position: relative;
 }
 
 .contacts {
@@ -87,8 +89,8 @@ ul a:visited {
 ul.contacts {
   margin-top: 7px;
   padding: 15px;
-  list-style: none inside none;
   font-size: 20px;
+  list-style: none inside none;
 }
 
 ul.contacts > li {
@@ -96,50 +98,50 @@ ul.contacts > li {
 }
 
 li.contacts-mail-icon:before {
+  content: '\f0e0';
   margin: 0 15px 0 -15px;
   font-family: 'FontAwesome';
-  content: '\f0e0';
   color: #56CCF2;
 }
 
 li.contacts-tel-icon:before {
+  content: '\f879';
   margin: 0 15px 0 -15px;
   font-family: 'FontAwesome';
-  content: '\f879';
   color: #56CCF2;
 }
 
 li.contacts-telegram-icon:before {
+  content: '\f3fe';
   margin: 0 15px 0 -15px;
   font-family: 'FontAwesome';
-  content: '\f3fe';
   color: #56CCF2;
 }
 
 li.contacts-github-icon:before {
+  content: '\f09b';
   margin: 0 15px 0 -15px;
   font-family: 'FontAwesome';
-  content: '\f09b';
   color: #56CCF2;
 }
 
 li.contacts-location-icon:before {
+  content: '\f3c5';
   margin: 0 15px 0 -15px;
   font-family: 'FontAwesome';
-  content: '\f3c5';
   color: #56CCF2;
 }
 
 .bio {
   margin-top: 15px;
-  color: white;
   font-size: 16px;
+  color: white;
 }
 
 .textcolumns {
   padding: 0;
-  column-count: 2;
   list-style-type: none;
+  column-count: 2;
 }
 
 h2.skills {
@@ -150,9 +152,9 @@ h2.skills {
 
 h2.education {
   margin-top: 50px;
-  color: #174180;
   font-size: 32px;
   font-weight: 700;
+  color: #174180;
 }
 
 .education-ul {
@@ -163,14 +165,14 @@ h2.education {
 }
 
 .education-ul li:before {
+  content: "•";
   padding-right: 10px;
   color: #56CCF2;
-  content: "•";
 }
 
 .education-ul li {
-  margin-top: 10px;
   clear: both;
+  margin-top: 10px;
   font-size: 24px;
   font-weight: 700;
   color: #4F4F4F;
@@ -194,6 +196,10 @@ h2.education {
   color: #4F4F4F;
 }
 
+.code-span {
+  font-weight: bold;
+}
+
 .code_p {
   padding-top: 5px;
   font-style: italic;
@@ -201,27 +207,27 @@ h2.education {
 }
 
 pre {
-  padding: 15px;
   margin: 15px 0;
+  padding: 15px;
   border-left: 5px solid #174180;
   background-color: #56CCF2;
 }
 
 .footer {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   height: 60px;
   padding: 0 30px;
-  background-color: #174180;
-  border-top: 3px solid #56CCF2;
   color: #ffffff;
+  border-top: 3px solid #56CCF2;
+  background-color: #174180;
 }
 
 .svg {
   height: 40px;
-  color: #ffffff;
   font-size: 40px;
+  color: #ffffff;
 }
 
 .visually-hidden {
